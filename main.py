@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 
 #Importing functions from personalized modules
 
-from src.sigmoidal import sigmoid             # Sigmoid funcion
-from src.escalon import step                  # Step function
-from src.gaussiana import gaussian            # Gaussian function
+from src.sigmoid import sigmoid             # Sigmoid funcion
+from src.step import step                  # Step function
+from src.gaussian import gaussian            # Gaussian function
 from src.identity import identity             # Identity function
-from src.lineal_a_tramos import piecewise     # Piecewise function
+from src.piecewise import piecewise     # Piecewise function
 from src.relu import relu                     # ReLU Function (Rectified Linear Unit)
-from src.sinusoidal import sinusoidal         # Sine function
-from src.tangente_hiperbolica import tanh     # Hyperbolic tangent function
+from src.sine import sinusoidal         # Sine function
+from src.tangent import tanh     # Hyperbolic tangent function  
 
 def main():
     # Define a range of values to plot in the x axis
